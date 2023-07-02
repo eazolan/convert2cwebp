@@ -2,7 +2,10 @@
 A batch file to convert to cwebp. 
 
 # Description
-A Windows batch file to convert jpg and png files in a folder, and all subfolders.
+A Windows batch file to convert jpg and png files in a folder, and all subfolders.\
+After successfully converting an image, it deletes the original source image.\
+If it fails to convert an image, it moves that image into the \err directory\
+After it's finished, it prints a total.
 
 # Getting Started
 ## Dependencies
